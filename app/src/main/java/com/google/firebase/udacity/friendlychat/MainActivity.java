@@ -148,6 +148,7 @@ public class MainActivity extends AppCompatActivity {
                 mMessagedatabaseReference.push().setValue(friendlyMessage);
                 // Clear input box
                 mMessageEditText.setText("");
+                Log.v("BBBCCCC","ebar hote hobe");
             }
         });
 
